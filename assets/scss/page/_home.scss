@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none !important;
+    text-decoration: none !important;
+}
+
+header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.185);
+
+    .headerLogo {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+
+    nav {
+
+
+        width: 100%;
+        position: relative;
+
+        #menuHamburger {
+            display: none;
+            padding: 2px;
+            border-radius: 5px;
+            border: 1px solid orangered;
+            color: orangered;
+
+
+        }
+
+        .menu {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            left: 0;
+            top: -13px;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+
+        ul {
+            width: 100%;
+            display: flex;
+            gap: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .home {
+                color: #c09eb9;
+            }
+
+            li {
+                a {
+                    color: black;
+                    font-weight: 300;
+                    font-size: 14px;
+
+                    &:hover {
+                        color: #c09eb9;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+#heroSection {
+    .container {
+        background-image: url("/assets/img/hero_1.jpg");
+        background-size: cover;
+        background-position: center;
+
+
+
+        .herotexts {
+            width: 100%;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+
+            p {
+                font-weight: 300;
+                color: #ffffff;
+            }
+
+            .royal {
+                margin: 0;
+                font-size: 30px;
+            }
+
+            .grape {
+                font-size: 90px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+#productsAll {
+    .container {
+        h2 {
+            text-align: center;
+            margin: 30px;
+        }
+
+        #products {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            .box{
+                width: 300px;
+                img{
+                    width: 100%;
+                    margin-bottom: 5px;
+                }
+                button {
+                    margin-top: 10px;
+                    padding: 7px 10px;
+                    border-radius: 30px;
+                    color: #fff;
+                    background-color: green;
+                    border: 1px solid green;
+                    transition: 1s;
+    
+                    &:hover {
+                        background-color: transparent;
+                        color: green;
+                    }
+                }
+                .wish{
+                    margin-top: 10px;
+                    padding: 7px 10px;
+                    border-radius: 30px;
+                    color: #fff;
+                    background-color: rgb(255, 255, 157);
+                    border: 1px solid green;
+                    transition: 1s;
+                    i{
+                        color: red;
+                    }
+    
+                    &:hover {
+                        background-color: transparent;
+                        color: green;
+                    }
+                }
+            }
+        }
+
+        .btnproducts {
+            margin: 20px;
+            text-align: end;
+
+            button {
+                padding: 7px 10px;
+                border-radius: 30px;
+                color: #fff;
+                background-color: black;
+                border: 1px solid black;
+                transition: 1s;
+
+                &:hover {
+                    background-color: transparent;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+#winesfor {
+    background-image: url("/assets/img/hero_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    .texts {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        p {
+            color: #fff;
+            width: 50%;
+            text-align: center;
+        }
+
+        .welcomeText {
+            font-size: 30px;
+            font-weight: 300;
+        }
+
+        .winesText {
+            font-size: 80px;
+            font-weight: 800;
+        }
+    }
+}
+
+#photosAndInfo {
+    background-color: #f8f9fa;
+
+    .row {
+        .col-xl-4 {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .photoPerson {
+                img {
+                    height: 80px;
+                    width: 80px;
+                    border-radius: 50%;
+                    border: 4px solid #930077;
+                }
+            }
+
+            .personInfo {
+                text-align: center;
+
+                p {
+                    font-size: 19px;
+                    text-transform: uppercase;
+                    text-align: center;
+                    opacity: 70%;
+                }
+
+                a {
+                    color: #b95ea8;
+                }
+            }
+        }
+    }
+}
+
+#sectionBlog{
+    background-color: #f8f9fa;
+    .container{
+        .blogTexts{
+            text-align: center;
+            .winsBlogText{
+                font-size: 30px;
+                font-weight: 300;
+            }
+            p,a{
+                font-weight: 500;
+            }
+            a{
+                color: #b95ea8;
+            }
+        }
+        .row{
+            .col-xl-4 {
+                .whatYouNeed{
+                    width: 100%;
+                    display: flex;
+                    
+                    justify-content: center;
+                    flex-direction: column;
+                   
+                    img{
+                        width: 100%;
+                        margin:  20px 0px;
+                    }
+                    .needTexts{
+                        font-size: 25px;
+                        font-weight: 300;
+                        margin: 0;
+                    }
+                    .aboutTexts{
+                        color: gray;
+                        font-weight: 500;
+                        margin: 10px 0px;
+                    }
+                    a{
+                        
+                        font-size: 13px;
+                        color: black;
+                        span{
+                            color: gray; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    .container{
+        text-align: center;
+        .footherIcons{
+            display: flex;
+            
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            a{
+               i{
+                margin: 2px;
+                
+                border-radius: 50%;
+                background-color: #930077;
+                font-size: 15px;
+                color: #fff;
+                height: 40px;
+                width: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: 1s;
+                &:hover{
+                    background-color: black;
+                    cursor: pointer;
+                    
+                }
+
+
+            } 
+            
+            }
+            
+        }
+        .footherTexts{
+            color: gray;
+            p{
+                i{
+                    color: #f23a2e;
+                }
+                a{
+                    color: #930077;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    header {
+        .container {
+            nav {
+
+                display: flex;
+                justify-content: end;
+                align-items: end;
+
+                ul {
+                    display: none;
+                }
+
+                #menuHamburger {
+                    display: block;
+                }
+
+                .menu {
+                    display: flex;
+                }
+            }
+        }
+    }
+
+    main {
+        #heroSection {
+            .container {
+                .herotexts {
+                    .grape {
+                        font-size: 45px;
+                    }
+                }
+            }
+        }
+
+        #winesfor .texts .winesText {
+            font-size: 35px;
+        }
+        #photosAndInfo .row .col-xl-4 .personInfo p{
+            font-size: 15px;
+        } 
+    }
+}

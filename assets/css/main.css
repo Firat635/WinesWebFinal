@@ -1,0 +1,394 @@
+#form {
+  margin: 30px auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 2px 20px 0.2px gray;
+  padding: 20px;
+  border-radius: 10px;
+}
+#form input {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  border: none;
+}
+#form label {
+  font-weight: 500;
+}
+#form button {
+  margin-top: 10px;
+  padding: 7px 10px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: green;
+  border: 1px solid green;
+  transition: 1s;
+  width: 150px;
+}
+#form button:hover {
+  background-color: transparent;
+  color: green;
+}
+
+#srcForm button {
+  margin-top: 10px;
+  padding: 7px 10px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: green;
+  border: 1px solid green;
+  transition: 1s;
+  width: 100px;
+}
+#srcForm button:hover {
+  background-color: transparent;
+  color: green;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#productsBasket .container h2 {
+  text-align: center;
+  margin: 30px;
+}
+#productsBasket .container #products {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+#productsBasket .container #products .box {
+  width: 300px;
+}
+#productsBasket .container #products .box img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+#productsBasket .container #products .box button {
+  margin-top: 10px;
+  padding: 7px 10px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: red;
+  border: 1px solid red;
+  transition: 1s;
+}
+#productsBasket .container #products .box button:hover {
+  background-color: transparent;
+  color: red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none !important;
+  text-decoration: none !important;
+}
+
+header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.185);
+}
+header .headerLogo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+header nav {
+  width: 100%;
+  position: relative;
+}
+header nav #menuHamburger {
+  display: none;
+  padding: 2px;
+  border-radius: 5px;
+  border: 1px solid orangered;
+  color: orangered;
+}
+header nav .menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: -13px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+header nav ul {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav ul .home {
+  color: #c09eb9;
+}
+header nav ul li a {
+  color: black;
+  font-weight: 300;
+  font-size: 14px;
+}
+header nav ul li a:hover {
+  color: #c09eb9;
+}
+
+#heroSection .container {
+  background-image: url("/assets/img/hero_1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#heroSection .container .herotexts {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+#heroSection .container .herotexts p {
+  font-weight: 300;
+  color: #ffffff;
+}
+#heroSection .container .herotexts .royal {
+  margin: 0;
+  font-size: 30px;
+}
+#heroSection .container .herotexts .grape {
+  font-size: 90px;
+  font-weight: 700;
+}
+
+#productsAll .container h2 {
+  text-align: center;
+  margin: 30px;
+}
+#productsAll .container #products {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+#productsAll .container #products .box {
+  width: 300px;
+}
+#productsAll .container #products .box img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+#productsAll .container #products .box button {
+  margin-top: 10px;
+  padding: 7px 10px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: green;
+  border: 1px solid green;
+  transition: 1s;
+}
+#productsAll .container #products .box button:hover {
+  background-color: transparent;
+  color: green;
+}
+#productsAll .container #products .box .wish {
+  margin-top: 10px;
+  padding: 7px 10px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: rgb(255, 255, 157);
+  border: 1px solid green;
+  transition: 1s;
+}
+#productsAll .container #products .box .wish i {
+  color: red;
+}
+#productsAll .container #products .box .wish:hover {
+  background-color: transparent;
+  color: green;
+}
+#productsAll .container .btnproducts {
+  margin: 20px;
+  text-align: end;
+}
+#productsAll .container .btnproducts button {
+  padding: 7px 10px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: black;
+  border: 1px solid black;
+  transition: 1s;
+}
+#productsAll .container .btnproducts button:hover {
+  background-color: transparent;
+  color: black;
+}
+
+#winesfor {
+  background-image: url("/assets/img/hero_2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#winesfor .texts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#winesfor .texts p {
+  color: #fff;
+  width: 50%;
+  text-align: center;
+}
+#winesfor .texts .welcomeText {
+  font-size: 30px;
+  font-weight: 300;
+}
+#winesfor .texts .winesText {
+  font-size: 80px;
+  font-weight: 800;
+}
+
+#photosAndInfo {
+  background-color: #f8f9fa;
+}
+#photosAndInfo .row .col-xl-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#photosAndInfo .row .col-xl-4 .photoPerson img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 4px solid #930077;
+}
+#photosAndInfo .row .col-xl-4 .personInfo {
+  text-align: center;
+}
+#photosAndInfo .row .col-xl-4 .personInfo p {
+  font-size: 19px;
+  text-transform: uppercase;
+  text-align: center;
+  opacity: 70%;
+}
+#photosAndInfo .row .col-xl-4 .personInfo a {
+  color: #b95ea8;
+}
+
+#sectionBlog {
+  background-color: #f8f9fa;
+}
+#sectionBlog .container .blogTexts {
+  text-align: center;
+}
+#sectionBlog .container .blogTexts .winsBlogText {
+  font-size: 30px;
+  font-weight: 300;
+}
+#sectionBlog .container .blogTexts p, #sectionBlog .container .blogTexts a {
+  font-weight: 500;
+}
+#sectionBlog .container .blogTexts a {
+  color: #b95ea8;
+}
+#sectionBlog .container .row .col-xl-4 .whatYouNeed {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#sectionBlog .container .row .col-xl-4 .whatYouNeed img {
+  width: 100%;
+  margin: 20px 0px;
+}
+#sectionBlog .container .row .col-xl-4 .whatYouNeed .needTexts {
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0;
+}
+#sectionBlog .container .row .col-xl-4 .whatYouNeed .aboutTexts {
+  color: gray;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+#sectionBlog .container .row .col-xl-4 .whatYouNeed a {
+  font-size: 13px;
+  color: black;
+}
+#sectionBlog .container .row .col-xl-4 .whatYouNeed a span {
+  color: gray;
+}
+
+footer .container {
+  text-align: center;
+}
+footer .container .footherIcons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+footer .container .footherIcons a i {
+  margin: 2px;
+  border-radius: 50%;
+  background-color: #930077;
+  font-size: 15px;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+}
+footer .container .footherIcons a i:hover {
+  background-color: black;
+  cursor: pointer;
+}
+footer .container .footherTexts {
+  color: gray;
+}
+footer .container .footherTexts p i {
+  color: #f23a2e;
+}
+footer .container .footherTexts p a {
+  color: #930077;
+}
+
+@media (max-width: 600px) {
+  header .container nav {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+  header .container nav ul {
+    display: none;
+  }
+  header .container nav #menuHamburger {
+    display: block;
+  }
+  header .container nav .menu {
+    display: flex;
+  }
+  main #heroSection .container .herotexts .grape {
+    font-size: 45px;
+  }
+  main #winesfor .texts .winesText {
+    font-size: 35px;
+  }
+  main #photosAndInfo .row .col-xl-4 .personInfo p {
+    font-size: 15px;
+  }
+}
